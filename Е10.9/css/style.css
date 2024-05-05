@@ -1,0 +1,131 @@
+/* ------Общее--------- */
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+}
+/* --------Левая колонка-------------*/
+
+.aside{
+    max-width: 470px;
+    background-color: #1e2939;
+    padding-top: 40px;
+    color: #ffffff;
+    height: 1319px;
+    width: 85%;
+    box-shadow:0 0 0px 0px rgba(0,0,0,0.15);
+}
+
+.aside-position{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+}
+.aside-photo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.aside-contacts-color{
+    color: #ff6b08;
+    font-size: 18px;
+}
+.aside-caption{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.list-item{
+    color: #ff6b08;
+}
+.aside-list-item:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.aside-tel{
+    margin-bottom: 30px;
+}
+
+.aside-mail{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.aside-countru{
+    font-size: 20px;
+}
+
+/* --------Правая колонка----------- */
+
+.abbout-me{
+    max-width: 100%;
+    padding-top: 115px;
+    padding-left: 90px;
+    padding-right: 215px;
+    box-shadow:5px 9px 20px 0px rgba(0,0,0,0.15);
+}
+
+.abbout-info{
+    width: 95%;
+    line-height: 35px;
+    font-size: 19px;
+    margin-bottom: 65px;
+}
+
+.abbout-caption{
+    font-size: 48px;
+}
+
+.suptitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+.abbout-info-text{
+    text-align: left;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.projects-list{
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.projects-list-item:not(:last-child){
+    margin-bottom:30px;
+}
+
+.main-caption{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.abbout-projects{
+    margin-bottom: 65px;
+}
+
+.adducation-tex{
+    font-size: 22px;
+    line-height: 32px;
+}
